@@ -1,2 +1,2 @@
-# Temperature-convertor-
-Temperature convertor using c++ language
+# Temperature-converter-
+Temperature converter using c++ language

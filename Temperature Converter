@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int n,temperature;
+    cout<<" 1.Celcius To Fahrenheit , 2. Fahrenheit To Celcius , 3.Celcius To Kelvin , 4.Kelvin To Celcius , 5.Fahrenheit To Kelvin , 6. Kelvin To Fahrenheit ";
+    cout<<"enter a conversion which you want to perform : ";cin>>temperature;
+    cout<<"enter a temperature : ";cin>>n;
+   switch (temperature){
+       case 1:
+       cout<<"Fahrenheit temperature: "<<n*(1.8)+32 ;
+       break;
+       case 2:
+       cout<<"Celcius temperature: "<<(n-32)*(0.5);
+       break;
+       case 3:
+       cout<< "Kelvien Temperature : " <<n+273.15;
+       break;
+       case 4:
+       cout<<"celcius temperature : "<<n-273.15;
+       break;
+       case 5:
+       cout<<"kelvin temperature : "<<(n-32)*(0.55)+273.15;
+       break;
+       case 6:
+       cout<<"Fahrenheit temperature : "<<(n-273.15)*(1.8)+32;
+       break;
+    }
+}
